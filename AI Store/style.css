@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+nav{
+    top:0;
+    width: 100%;
+    background-color: aqua;
+    height: 50px;
+    position:fixed;
+    overflow: hidden;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    width: 10%;
+    
+    display: flex;
+    align-items: left;
+    margin-left: .25rem;
+}
+.menu i{
+    font-size: 25px;
+    width: 3rem;
+    margin: .75rem ;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    
+    align-items: center;
+    margin-left: 2rem;
+    font-size: large;
+    
+}
+.searchbar input{
+    width: 75%;
+    line-height: 2.25rem;
+    border-radius: 20px;
+    margin: .5rem 1rem .5rem 7rem;
+    background-image: url(search-icon.jpeg);
+    background-position: 10px 10px;
+    background-repeat: no-repeat; 
+    background-size: 1rem;
+    z-index: 1;
+    font-size: medium;
+    border: 1px solid rgb(197, 193, 193);
+    box-shadow: 2px 2px 4px ghostwhite;
+    padding-left: 30px;
+    
+}
+
+input ::placeholder{
+    font-size: large;
+    margin-left: 5rem;
+
+}
+
+.nav-btn{
+    width: 20%;
+    height: 70%;
+    margin: .5rem rem;
+    
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    
+}
+.nav-btn button{
+    width: 5.5rem;
+    height: 2.5rem;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    margin:0 2rem;
+}
+.nav-btn i{
+    font-size: 30px;
+    align-items: last baseline  ;
+    margin-top: .5rem;
+}
+body{
+    margin-top: 100px;
+    background-color: pink;
+    overflow: scroll;
+}
+.body-container{
+    margin: 0 50px;
+}
+.heading{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 16px 0;
+    padding: 5px;
+}
+.para{
+    font-size: 20px;
+    display: grid;
+    text-align: center;
+    padding: 5px 50px;
+    margin: 5px 0;
+    
+}
+.searchbar-body input{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 3rem;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    background-image: url(search-icon.jpeg);
+    background-position: 15px 15px;
+    background-repeat: no-repeat; 
+    background-size: 1.5rem;
+    z-index: 1;
+    font-size: medium;
+    border: 1px solid rgb(197, 193, 193);
+    box-shadow: 2px 2px 4px ghostwhite;
+    padding-left: 50px;
+}
+
+.option {
+    display: flex;
+    width: 100%; /* Use 100% width for parent container */
+    margin: 25px 25px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    background-color: blueviolet;
+    padding: 10px; /* Add padding to avoid items touching the edges */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: auto ;
+    
+    
+}
+
+.option::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.option div {
+    flex: 0 0 auto; /* Ensure flex items do not shrink or grow */
+    line-height: 1.25rem;
+    margin: 5px 10px;
+    background-color: aqua;
+    padding: 10px 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.option div:hover{
+    background-color: #b4b4b4;
+    border-radius: 10px;
+    padding: 10px 5px;
+     
+}
+.section1{
+    width: 60%;
+    display: flex;
+    background-color: burlywood;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: baseline;
+    
+    
+    
+    
+    
+}
+.content1{
+    background-color: #b4b4b4;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+
+
+}
